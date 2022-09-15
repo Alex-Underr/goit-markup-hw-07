@@ -1,0 +1,41 @@
+.partners__title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+}
+
+.partners__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.partners__link:hover,
+.partners__link:focus {
+    border-color: var(--accent-color);
+}
+
+.partners__link:hover .partners__icon,
+.partners__link:focus .partners__icon {
+    fill: var(--accent-color);
+}
+
+.partners__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.partners__icon {
+    fill: #afb1b8;
+    transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,23 +1,23 @@
-:root {
+/* :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-}
+} */
 
-body {
+/* body {
   font-family: Roboto, Raleway, sans-serif;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-}
-.container {
+} */
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-
+} */
+/* 
 h1,
 h2,
 h3,
@@ -34,39 +34,42 @@ li {
 a {
   text-decoration: none;
   color: currentColor;
-}
+} */
 
-.section {
+/* .section {
   padding: 94px 0;
-}
-.main-nav {
+} */
+
+/* .header__nav {
   display: flex;
   align-items: center;
-}
-.header {
+} */
+
+/* .header {
   border-bottom: 1px solid #ececec;
 }
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
-}
+}  */
+
 /* LOGO */
 
-.logo {
-  color: #2196f3;
+/* .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
-.logo span {
+.logo__black {
   color: #212121;
-}
+} */
 
 /* Site navigation */
-.site-nav {
+/* .site-nav {
   display: flex;
   margin-left: 92px;
 }
@@ -88,10 +91,10 @@ a {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Authorization */
-
+/* 
 .auth-nav {
   display: flex;
   gap: 30px;
@@ -138,18 +141,18 @@ a {
 .icon-smartphone:hover,
 .icon-smartphone:focus {
   fill: var(--accent-color);
-}
+} */
 
 /* -------------------Студія------------------------------- */
 
-.site-nav .current {
+/* .site-nav .current {
   color: var(--accent-color);
 }
 
 .site-nav .link {
   position: relative;
-}
-
+} */
+/* 
 .site-nav .link::after {
   content: '';
   display: block;
@@ -168,10 +171,10 @@ a {
 }
 .site-nav .link:hover::after {
   transform: scaleX(1);
-}
+} */
 
 /* ГЕРОЙ */
-
+/* 
 .hero {
   text-align: center;
   background-color: #2f303a;
@@ -193,8 +196,8 @@ a {
   margin-right: auto;
   letter-spacing: 0.06em;
   width: 696px;
-}
-
+} */
+/* 
 .btn {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -217,8 +220,8 @@ a {
 .btn:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
+} */
+/* 
 .benefits__details {
   display: flex;
 }
@@ -256,10 +259,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* WORK */
-
+/* 
 .no-padding {
   padding-top: 0;
 }
@@ -289,10 +292,10 @@ a {
 }
 .work__items {
   position: relative;
-}
+} */
 
 /* ---------------------* COMMAND */
-.team {
+/* .team {
   background-color: #f5f4fa;
 }
 
@@ -341,10 +344,10 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-}
+} */
 
 /* SOCIAL LINKS*/
-
+/* 
 .team__social-icon {
   width: 20px;
   height: 20px;
@@ -370,19 +373,19 @@ a {
 .team__social-link:hover,
 .team__social-link:focus {
   background-color: var(--accent-color);
-}
+} */
 
 /* ----------------------Portfolio-------------------- */
 
 /* Filter */
-.button {
+/* .button {
   font-family: inherit;
   margin-bottom: 50px;
   display: flex;
   gap: 8px;
   justify-content: center;
-}
-
+} */
+/* 
 .headline:hover,
 .headline:focus {
   color: var(--primary-white-color);
@@ -406,10 +409,10 @@ a {
 
   transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1),
     250ms color cubic-bezier(0.4, 0, 0.2, 1), 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Section */
-.section-list .caption {
+/* .section-list .caption {
   color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
@@ -449,12 +452,12 @@ a {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
-}
+} */
 
-img {
+/* img {
   display: block;
-}
-
+} */
+/* 
 .section-opacity {
   position: relative;
   overflow: hidden;
@@ -479,11 +482,11 @@ img {
 .section-list:hover .opacity,
 .section-list:focus .opacity {
   transform: translateY(0);
-}
+} */
 
 /* ---------------------COMPANY--------------------- */
 
-.partners__title {
+/* .partners__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -523,10 +526,10 @@ img {
 .partners__icon {
   fill: #afb1b8;
   transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* ------------------------BACKDROP+MODAL------------------ */
-
+/* 
 .backdrop {
   position: fixed;
   top: 0;
@@ -560,8 +563,8 @@ img {
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: 250ms transform cubic-bezier(0.4, 0, 0.2, 1);
-}
-
+} */
+/* 
 .close {
   width: 30px;
   height: 30px;
@@ -585,10 +588,10 @@ img {
 .close:hover .icon-close,
 .close:focus .icon-close {
   fill: var(--accent-color);
-}
+} */
 
 /* FORM */
-
+/* 
 .modal-title {
   display: block;
   font-size: 20px;
@@ -722,8 +725,8 @@ img {
   text-decoration-line: underline;
   text-underline-position: under;
   color: var(--accent-color);
-}
-
+} */
+/* 
 .modal-btn {
   display: flex;
   font-weight: 700;
@@ -745,15 +748,15 @@ img {
 .modal-btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: #188ce8;
-}
+} */
 /* --------------------------------Footer */
-
+/* 
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
-}
+} */
 
-.logo-two {
+/* .logo {
   color: #2196f3;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -762,10 +765,10 @@ img {
   letter-spacing: 0.03em;
 }
 
-.logo-two span {
+.logo__white {
   color: #ffffff;
-}
-
+} */
+/* 
 .adress-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -815,8 +818,8 @@ img {
 .phone:hover,
 .phone:focus {
   color: var(--accent-color);
-}
-
+} */
+/* 
 .footer-social-links {
   display: flex;
   gap: 10px;
@@ -842,10 +845,10 @@ img {
   width: 20px;
   height: 20px;
   margin: 12px;
-}
+} */
 
 /* FORM */
-.subscribe-footer {
+/* .subscribe-footer {
   margin-left: 93px;
 }
 
@@ -868,8 +871,8 @@ img {
   text-transform: uppercase;
   color: var(--primary-white-color);
   margin-bottom: 12px;
-}
-
+} */
+/* 
 .subscribe-btn {
   display: flex;
   width: 200px;
@@ -892,9 +895,9 @@ img {
 .subscribe-btn:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
-.window-mail {
+/* .window-mail {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -911,4 +914,4 @@ img {
 .window-mail:focus {
   border-color: var(--accent-color);
   outline: none;
-}
+} */
